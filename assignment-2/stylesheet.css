@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    /*THE FONT FOR THIS WEB PAGE*/
+    
+    margin: 0;
+    /* TO REMOVE DEFAULT MARGIN*/
+    
+    padding: 0;
+    /* TO REMOVE DEFAULT PADDING*/
+    background-color: #e5d9d9;
+    /* BACKGROUND COLOR*/
+    color:white;
+    /*TEXT COLOR*/
+
+    background-image: url('hotel.jpeg');
+    /*BACKGROUND  IMAGE*/
+
+    background-size: cover;
+    /*TO DISPLAY IMAGE IN PAGE*/
+}
+
+header 
+{
+    text-align: center; 
+    /*TEXT IN CENTER*/
+    padding: 20px;
+    /*PADDING AROUND HEADER*/
+    color: white;
+    /*TEXT COLOR*/
+    text-align: center;
+    padding: 1em 0;
+    /*TOP AND BOTTOM PADDING*/
+}
+h1{
+    
+    margin: 0;
+    /*TO REMOVE DEFAULT MARGIN*/
+}
+
+main {
+    text-align: center;
+    /*TEXT IN CENTER*/
+    padding:20px;
+    /*PADDING AROUND MAIN SECTION*/
+    background: rgba(0,0,0,0.5);
+    /*SEMI-TRANSPARENT BLACK BACKGRIUND*/
+}
+form{
+    display: flex;
+    /*FLEXBOX LAYOUT*/
+    flex-direction: column;
+    /*ARRANGE COLUMN*/
+}
+label, input, textarea, button, fieldset, legend{
+    margin-bottom: 10px;
+    /*SPACE BELOW EACH ELEMENT*/
+}
+fieldset{
+    padding: 10px;
+    /*PADDING INSIDE THE FIELDSET*/
+    border: 1px solid #ffffff;
+    /*WHITE BORDER AROUND THE FIELDSET*/
+}
+legend{
+    font-weight: bold;
+    /*TO BOLD TEXT*/
+}
+button{
+    background-color: #ff6347;
+    /*BUTTON COLOR*/
+    color:white;
+    /*TEXT COLOR*/
+    border: none;
+    /*REMOVE THE DEFAULT BORDER*/
+    padding: 10px;
+    /*PADDING INSIDE THE BUTTON*/
+    cursor: pointer;
+    /*THE CURSOR TO A POINTER WHEN HOVERING OVER THE BUTTON*/
+}
+button:hover{
+    background-color: #ff4500;
+    /*THE BUTTON BACKGROUND COLOR HOVER*/
+}
