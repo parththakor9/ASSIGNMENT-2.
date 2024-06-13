@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ASSIGNMENT-3, PIZZA WEBPAGE DESIGN</title>
+        <link rel="stylesheet" href="stylesheet.css"><!--THE REFRENCE OF THE CSS FILE.-->
+    </head>
+    <body>
+        <header>
+            <h1>THE PIZZA SHOP OF PARTH</h1><!--TITLE.-->
+        </header>
+        <main>
+            <section id="the-order-form-section"><!--FORM SECRION DECLARATION.-->
+                <h2>PLEASE ORDER YOUR TASTY PIZZA</h2><!--TITLE FORM-->
+                <form id="pizza-order-form" onsubmit="handleFormSubmit(event)"> <!--ACTION.-->
+                    
+                    <label for="name">YOUR NAME: </label><!--TITLE.-->
+                    <input type="text" id="name" name="name" required><!--TO FATCH INPUT.-->
+                    
+                    
+                    <label for="email">YOUR E-MAIL ID: </label><!--TITLE-->
+                    <input type="email" id="email" name="email" required><!--TO FATCH INPUT.-->
+                    
+                    
+                    <label for="phonenumber">YOUR PHONE NUMBER: </label><!--TITLE-->
+                    <input type="tel" id="phonenumber" name="phonenumber" required><!--TO FATCH INPUT.-->
+
+                    
+                    <label for="smallpizza">ORDER FOR SMALL SIZE PIZZA: </label><!--TITLE SMALL PIZZA.-->
+                    <input type="number" id="smallpizza" name="smallpizza" required><!--TO FATCH INPUT.-->
+
+                    <fieldset><!--TO SELECT THE OPTION SMALL PIZZA TOPPING.-->
+                        <legend>Toppings:</legend><!--TITLE-->
+                        <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+                        <label for="pepperoni">Pepperoni</label><!--OPTION-->
+                        <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms"><!--TO FATCH INPUT OPTION-->
+                        <label for="mushrooms">Mushrooms</label><!--OPTION-->
+                        <input type="checkbox" id="onions" name="toppings" value="onions"><!--TO FATCH INPUT OPTION-->
+                        <label for="onions">Onions</label><!--OPTION-->
+                        <input type="checkbox" id="sausage" name="toppings" value="sausage"><!--TO FATCH INPUT OPTION-->
+                        <label for="sausage">Sausage</label><!--OPTION-->
+                        <input type="checkbox" id="bacon" name="toppings" value="bacon"><!--TO FATCH INPUT OPTION-->
+                        <label for="bacon">Bacon</label><!--OPTION-->
+                    </fieldset>
+
+                   
+                    <label for="mediumpizza">ORDER FOR MEDIUM SIZE PIZZA: </label><!--TITLE MEDIUM PIZZA.-->
+                    <input type="number" id="mediumpizza" name="mediumpizza" required><!--TO FATCH INPUT.-->
+
+                    <fieldset><!--TO SELECT THE OPTION MEDIUM PIZZA TFOPPING-->
+                        <legend>Toppings:</legend><!--TITLE-->
+                        <input type="checkbox" id="pepperoni2" name="toppings" value="pepperoni"><!--TO FATCH INPUT-->
+                        <label for="pepperoni2">Pepperoni</label><!--OPTION-->
+                        <input type="checkbox" id="mushrooms2" name="toppings" value="mushrooms"><!--TO FATCH INPUT-->
+                        <label for="mushrooms2">Mushrooms</label><!--OPTION-->
+                        <input type="checkbox" id="onions2" name="toppings" value="onions"><!--TO FATCH INPUT-->
+                        <label for="onions2">Onions</label><!--OPTION-->
+                        <input type="checkbox" id="sausage2" name="toppings" value="sausage"><!--TO FATCH INPUT-->
+                        <label for="sausage2">Sausage</label><!--OPTION-->
+                        <input type="checkbox" id="bacon2" name="toppings" value="bacon"><!--TO FATCH INPUT-->
+                        <label for="bacon2">Bacon</label><!--OPTION-->
+                    </fieldset>
+
+                   
+                    <label for="largepizza">ORDER FOR LARGE SIZE PIZZA: </label><!--TITLE LARGE PIZZA-->
+                    <input type="number" id="largepizza" name="largepizza" required><!--TO FATCH INPUT-->
+
+                 
+                    <fieldset><!--TO SELECT THE OPTION LARGE PIZZA.-->
+                        <legend>Toppings:</legend><!--TITLE-->
+                        <input type="checkbox" id="pepperoni3" name="toppings" value="pepperoni"><!--TO FATCH INPUT-->
+                        <label for="pepperoni3">Pepperoni</label><!--OPTION-->
+                        <input type="checkbox" id="mushrooms3" name="toppings" value="mushrooms"><!--TO FATCH INPUT-->
+                        <label for="mushrooms3">Mushrooms</label><!--OPTION-->
+                        <input type="checkbox" id="onions3" name="toppings" value="onions"><!--TO FATCH INPUT-->
+                        <label for="onions3">Onions</label><!--OPTION-->
+                        <input type="checkbox" id="sausage3" name="toppings" value="sausage"><!--TO FATCH INPUT-->
+                        <label for="sausage3">Sausage</label><!--OPTION-->
+                        <input type="checkbox" id="bacon3" name="toppings" value="bacon"><!--TO FATCH INPUT-->
+                        <label for="bacon3">Bacon</label><!--OPTION-->
+                    </fieldset>
+
+                    <label for="comments">Additional Comments:</label><!--TITLE COMMENT.-->
+                    <textarea id="comments" name="comments" rows="4" cols="50"></textarea><!--TO FATCH COMMENT.-->
+
+                   
+                    <button type="submit">PLACE ORDER</button><!--BUTTON-->
+                </form>
+            </section>
+        </main>
+
+        
+        <footer>
+            <p>CONTACT DETAIL:</p><!--FOTTER TITLE-->
+                <P> PHONE NUMBER: 9054174187.</P><!--FOTTER -->
+            <p> NAME: PARTH SURESHCHANDRA THAKOR.</p><!--FOTTER-->
+        </footer>
+    </body>
+</html>
